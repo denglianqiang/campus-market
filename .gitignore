@@ -1,0 +1,41 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.*
+!.env.example
+
+# ===== Node / 前端 =====
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 数据库 / 日志 / 临时文件 =====
+*.db
+*.sqlite3
+logs/
+tmp/
+
+# ===== 个人文档与大媒体（勿提交到公开仓库）=====
+_word_tmp/
+_resume*.docx
+实验报告.docx
+邓联强-*.docx
+邓联强-*.pdf
+操作演示视频.mp4
+*.mp4
